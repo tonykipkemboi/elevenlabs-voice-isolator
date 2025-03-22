@@ -1,9 +1,13 @@
 # ElevenLabs Voice Isolator for Video Files
 
-[![PyPI version](https://img.shields.io/pypi/v/elevenlabs-voice-isolator.svg)](https://pypi.org/project/elevenlabs-voice-isolator/)
+[![PyPI version](https://badge.fury.io/py/elevenlabs-voice-isolator.svg)](https://badge.fury.io/py/elevenlabs-voice-isolator)
 [![Python Versions](https://img.shields.io/pypi/pyversions/elevenlabs-voice-isolator.svg)](https://pypi.org/project/elevenlabs-voice-isolator/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub issues](https://img.shields.io/github/issues/tonykipkemboi/elevenlabs-voice-isolator.svg)](https://github.com/tonykipkemboi/elevenlabs-voice-isolator/issues)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/tonykipkemboi/elevenlabs-voice-isolator/python-package.yml)](https://github.com/tonykipkemboi/elevenlabs-voice-isolator/actions)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/elevenlabs-voice-isolator)](https://pypi.org/project/elevenlabs-voice-isolator/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![GitHub Release](https://img.shields.io/github/v/release/tonykipkemboi/elevenlabs-voice-isolator)](https://github.com/tonykipkemboi/elevenlabs-voice-isolator/releases)
 
 > **Disclaimer**: This package is not officially affiliated with, endorsed by, or connected to ElevenLabs. It is an independent project that utilizes the ElevenLabs API.
 
