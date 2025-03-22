@@ -5,6 +5,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub issues](https://img.shields.io/github/issues/tonykipkemboi/elevenlabs-voice-isolator.svg)](https://github.com/tonykipkemboi/elevenlabs-voice-isolator/issues)
 
+> **Disclaimer**: This package is not officially affiliated with, endorsed by, or connected to ElevenLabs. It is an independent project that utilizes the ElevenLabs API.
+
 This tool extracts audio from video files and uses the ElevenLabs voice isolator API to remove background noise, resulting in clean, studio-quality speech.
 
 ## Features
