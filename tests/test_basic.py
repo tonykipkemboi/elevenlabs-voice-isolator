@@ -7,7 +7,7 @@ class TestBasicFunctionality(unittest.TestCase):
     
     def test_logger_setup(self):
         """Test that the logger setup function works."""
-        logger = setup_logger("test_logger", verbose=True)
+        logger = setup_logger("test_logger", level=20)  # INFO level
         self.assertIsNotNone(logger)
         
     def test_package_imports(self):
