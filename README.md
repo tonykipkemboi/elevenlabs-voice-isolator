@@ -1,5 +1,10 @@
 # ElevenLabs Voice Isolator for Video Files
 
+[![PyPI version](https://img.shields.io/pypi/v/elevenlabs-voice-isolator.svg)](https://pypi.org/project/elevenlabs-voice-isolator/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/elevenlabs-voice-isolator.svg)](https://pypi.org/project/elevenlabs-voice-isolator/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub issues](https://img.shields.io/github/issues/tonykipkemboi/elevenlabs-voice-isolator.svg)](https://github.com/tonykipkemboi/elevenlabs-voice-isolator/issues)
+
 This tool extracts audio from video files and uses the ElevenLabs voice isolator API to remove background noise, resulting in clean, studio-quality speech.
 
 ## Features
@@ -19,16 +24,26 @@ This tool extracts audio from video files and uses the ElevenLabs voice isolator
 
 ## Installation
 
-### Option 1: Install from source
+### Option 1: Install from PyPI (Recommended)
 
-1. Clone this repository or download the files
+```bash
+pip install elevenlabs-voice-isolator
+```
+
+### Option 2: Install from source
+
+1. Clone this repository:
+```bash
+git clone https://github.com/tonykipkemboi/elevenlabs-voice-isolator.git
+cd elevenlabs-voice-isolator
+```
+
 2. Install the package in development mode:
-
 ```bash
 pip install -e .
 ```
 
-### Option 2: Install dependencies only
+### Option 3: Install dependencies only
 
 1. Clone this repository or download the files
 2. Install the required Python packages:
@@ -57,11 +72,14 @@ Then edit the `.env` file to add your API key.
 The package provides a simple command-line interface:
 
 ```bash
-# Process a single video
+# If installed from PyPI
+voice-isolator path/to/video.mp4 -o path/to/output.mp4
+
+# If installed from source or running directly
 python cli.py path/to/video.mp4 -o path/to/output.mp4
 
 # Batch process all videos in a directory
-python cli.py path/to/videos_directory --batch -o path/to/output_directory
+voice-isolator path/to/videos_directory --batch -o path/to/output_directory
 ```
 
 ### Python API
@@ -89,7 +107,7 @@ batch_process_videos(
 ### Additional options
 
 ```
-usage: cli.py [-h] [-o OUTPUT] [--batch] [--temp-dir TEMP_DIR] [--keep-temp] [--api-key API_KEY] [--video-codec VIDEO_CODEC] [--overwrite] [--verbose] input
+usage: voice-isolator [-h] [-o OUTPUT] [--batch] [--temp-dir TEMP_DIR] [--keep-temp] [--api-key API_KEY] [--video-codec VIDEO_CODEC] [--overwrite] [--verbose] input
 
 Process videos with ElevenLabs voice isolation
 
@@ -128,9 +146,19 @@ The package is organized into the following modules:
 4. The cleaned audio is merged back with the original video
 5. The final video with clean audio is saved to the specified output location
 
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
 ## License
 
-MIT
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgements
 
