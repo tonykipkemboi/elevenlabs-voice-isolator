@@ -38,32 +38,31 @@ pip install elevenlabs-voice-isolator
 
 ### Option 2: Install from source
 
-1. Clone this repository:
-```bash
-git clone https://github.com/tonykipkemboi/elevenlabs-voice-isolator.git
-cd elevenlabs-voice-isolator
-```
-
-2. Install the package in development mode:
-```bash
-pip install -e .
-```
+- Clone this repository or download the files
+- Install the package in development mode:
+  ```bash
+  pip install -e .
+  ```
 
 ### Option 3: Install dependencies only
 
-1. Clone this repository or download the files
-2. Install the required Python packages:
+- Clone this repository or download the files
+- Install the required Python packages:
+  ```bash
+  pip install -r requirements.txt
+  ```
 
-```bash
-pip install -r requirements.txt
-```
+### FFmpeg Installation
 
-3. Install FFmpeg if not already installed:
-   - **macOS**: `brew install ffmpeg`
-   - **Ubuntu/Debian**: `sudo apt-get install ffmpeg`
-   - **Windows**: Download from [ffmpeg.org](https://ffmpeg.org/download.html) or use Chocolatey: `choco install ffmpeg`
+Install FFmpeg if not already installed:
 
-4. Create a `.env` file with your ElevenLabs API key:
+- macOS: `brew install ffmpeg`
+- Ubuntu/Debian: `sudo apt-get install ffmpeg`
+- Windows: Download from [ffmpeg.org](https://ffmpeg.org/) or use Chocolatey: `choco install ffmpeg`
+
+### API Key Setup
+
+Create a `.env` file with your ElevenLabs API key:
 
 ```bash
 cp .env.example .env
