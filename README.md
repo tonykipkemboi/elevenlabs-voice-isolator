@@ -24,7 +24,7 @@ This tool extracts audio from video files and uses the ElevenLabs voice isolator
 
 ## Requirements
 
-- Python 3.7+
+- Python 3.8+
 - FFmpeg installed on your system
 - ElevenLabs API key
 
